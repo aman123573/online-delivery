@@ -1,0 +1,99 @@
+.navbar-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: lightseagreen; */
+    padding: 10px;
+    max-height: 100px;
+    /* margin-top: 20px; */
+}
+
+/* working on the logo and title */
+
+.logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 23px;
+}
+
+.logo img{
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50%;
+}
+
+.logo p{
+    font-weight: 800;
+    font-size: 1.2rem;
+    font-family: cursive;
+    margin-top: 5px;
+}
+
+/* working on the list items of navbar */
+.list-items{
+    width: auto;
+    margin-right: 10vw;
+    display: block;
+}
+
+.list-items ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list-items ul li{
+    list-style: none;
+    font-family: cursive;
+    font-size: 1.2rem;
+    margin: 0 23px;
+}
+
+.list-items ul li a{
+    text-decoration: none;
+    color: #000;
+}
+
+.list-items ul li a:hover{
+    color: #c03a2b;
+}
+
+.hamburger{
+    cursor: pointer;
+    display: none;
+}
+
+.badge {
+    padding-left: 9px;
+    padding-right: 9px;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    border-radius: 9px;
+  }
+  
+  .label-warning[href],
+  .badge-warning[href] {
+    background-color: #c67605;
+  }
+  #lblCartCount {
+      font-size: 12px;
+      background: #c03a2b;
+      color: #fff;
+      padding: 0 5px;
+      vertical-align: top;
+  }
+
+@media (max-width:750px) {
+    .list-items{
+        display: none;
+    }
+    .navbar-section{
+        flex-direction: column;
+    }
+    .hamburger{
+        display: block;
+    }
+}

@@ -1,0 +1,57 @@
+.footer-section{
+    height: 34vh;
+    background-color: #c03a2b;
+    margin-top: 10vh;
+    color: white;
+    font-family: cursive;
+}
+
+.subscribe{
+    display: flex;
+    gap: 5px;
+}
+
+.subscribe input{
+    outline: none;
+    padding: 10px;
+    width: 14vw;
+    border: none;
+    border-radius: 20px;
+}
+
+.subscribe button{
+    background-color: #000;
+}
+
+.subscribe button:hover{
+    background-color: #4d6b7f;
+}
+
+.footer-details{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.timings{
+    color: rgb(208, 207, 207);
+
+}
+
+.copyright{
+    text-align: center;
+    margin-top: 80px;
+}
+
+@media (max-width:550px) {
+    h1{
+        font-size: 1rem;
+    }
+    .timings{
+        font-size: 0.59rem;
+    }
+    .copyright{
+        font-size: 0.89rem;
+    }
+    
+}
