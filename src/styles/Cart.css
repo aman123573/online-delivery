@@ -1,0 +1,93 @@
+.cart-body {
+    background-color: rgba(217, 54, 54, 0.48);
+    padding: 23px;
+    max-width: 80vw;
+    margin: auto;
+    border-radius: 10px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+}
+
+.cart-list-items {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: antiquewhite; */
+    margin-bottom: 6vh;
+    margin-right: 16vw;
+    margin-left: 13vw;
+    margin-top: 4vh;
+    /* padding: 13px; */
+    font-size: 1.3rem;
+
+    /* From https://css.glass */
+    /* From https://css.glass */
+    /* From https://css.glass */
+    background: rgba(241, 241, 241, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7px);
+    -webkit-backdrop-filter: blur(5px);
+    /* border: 1px solid rgba(255, 255, 255, 0.3); */
+}
+
+.cart-item-actions {
+    background-color: #d54434;
+    display: flex;
+    font-size: 1.5rem;
+    padding: 6px;
+    width: 100px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 30px;
+}
+
+.cart-item-actions .remove, .cart-item-actions .add {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    line-height: 30px;
+    width: 30px;
+    height: 30px;
+    /* padding: 10px; */
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+.cart-item-actions .remove:hover, .cart-item-actions .add:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.empty-cart-message {
+    text-align: center;
+    font-family: cursive;
+    font-weight: bold;
+}
+
+.checkout-btn{
+    /* border: 1px solid black; */
+    margin: 23px;
+    padding: 8px 23px;
+    /* background-color: white; */
+    border-radius: 30px;
+    font-family: cursive;
+    border: none;
+}
+
+.checkout-btn:hover{
+    cursor: pointer;
+    background-color: rgb(255, 241, 241);
+    border: none;
+    color: #d54434;
+}
+
+.checkout-btn.disable{
+    cursor: not-allowed;
+    background-color: gray;
+}

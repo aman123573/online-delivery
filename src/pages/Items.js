@@ -27,7 +27,7 @@ const Items = () => {
             <h2>{pizza.pizzaName}</h2>
             <span className="item-add-delete"
               onClick={() => addHandler(pizza)}>
-              <p>{pizza.price}</p>
+              <p>${pizza.price}</p>
               <span
                 className="add">
                 Add Item
@@ -44,7 +44,7 @@ const Items = () => {
             <h2>{pizza.pizzaName}</h2>
             <span className="item-add-delete"
               onClick={() => addHandler(pizza)}>
-              <p>{pizza.price}</p>
+              <p>${pizza.price}</p>
               <span
                 className="add">
                 Add Item
@@ -61,7 +61,7 @@ const Items = () => {
             <h2>{pizza.pizzaName}</h2>
             <span className="item-add-delete"
               onClick={() => addHandler(pizza)}>
-              <p>{pizza.price}</p>
+              <p>${pizza.price}</p>
               <span
                 className="add">
                 Add Item
